@@ -36,7 +36,6 @@
 
     .dropdown-content {
     display: none;
-    /* margin-right: 300px; */
     text-align: left;
     }
     .dropdown-content2 {
@@ -116,6 +115,7 @@
     text-align: left;
     }
     #text-content {
+    width: 80%;
     text-align: left !important; /* 设置文本左对齐 */
     /* text-indent: 300px; 设置文本缩进为负值，向左移动 */
     /* margin-right: 100px; 设置左边距为 20px */
@@ -431,11 +431,39 @@
                     </div>
 
 
-                    <div class="box" id="Publication">
-                        <p class="title is-3">Publication</p>
+                    <div class="box" id=" Publication">
+                        <p class="title is-3">Main Publication</p>
 
+                        <div class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
+                                    <img src="img/transgop.png" />
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
+                                    TransGOP: Transformer-Based Gaze Object Prediction
+                                </p>
+                                <p class="paper-title">
+                                    <i> Proceedings of the AAAI Conference on Artificial Intelligence, 2024</i>
+                                </p>
+                                <p class="paper-author is-italic">
+                                    <strong>Binglu Wang</strong>, Chenxi Guo, Yang Jin, Haisheng Xia, Nian Liu
+                                </p>
 
-
+                                <p class="paper-info">
+                                    <a href="https://arxiv.org/abs/2402.13578" target="_blank">[Paper]</a>
+                                    <!-- <a href="https://github.com/CodeMonsterPHD/GaTector-A-Unified-Framework-for-Gaze-Object-Prediction" target="_blank">[Code]</a> -->
+                                    <a href="javascript:void(0)" onclick="toggleDropdownc5()" id="toggleLink">[Bibtex]</a>
+                                    <div class="dropdown-contentc5" id="myDropdownc5">
+                                        <!-- 这里是你的BibTeX内容 -->
+                                        <pre id="text-content">@article{wang2024transgop,<br>title={TransGOP: Transformer-Based Gaze Object Prediction},<br>author={Wang, Binglu and Guo, Chenxi and Jin, Yang and Xia, Haisheng and Liu, Nian},<br>journal={arXiv preprint arXiv:2402.13578},<br>year={2024}<br>}
+                                          </pre>
+                                    </div>
+                                    
+                                </p>
+                            </div>
+                        </div>
 
                         <div class="media">
                             <figure class="media-left">
@@ -462,6 +490,132 @@
                                       <pre id="text-content">@article{wang2023temporal,<br>title={Temporal action localization in the deep learning era: A survey},<br>author={Wang, Binglu and Zhao, Yongqiang and Yang, Le and Long, Teng and Li, Xuelong},<br>journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},<br>year={2023},<br>publisher={IEEE}<br>}
                                       </pre>
                                     </div>
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
+                                    <img src="img/joint.PNG" />
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
+                                    Joint Denoising-Demosaicking Network for Long-Wave Infrared Division-of-Focal-Plane Polarization <br> Images with Mixed Noise Level Estimation
+                                </p>
+                                <p class="paper-title">
+                                    <i>IEEE Transactions on Image Processing, 2023</i>
+                                </p>
+                                <p class="paper-author is-italic">
+                                    Ning Li, <strong>Binglu Wang*</strong>, François Goudail, Yongqiang Zhao, Quan Pan
+                                </p>
+
+                                <p class="paper-info">
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/10304085/" target="_blank">[Paper]</a>
+                                    <a href="javascript:void(0)" onclick="toggleDropdown3()" id="toggleLink">[Bibtex]</a>
+                                    <div class="dropdown-content3" id="myDropdown3">
+                                      <!-- 这里是你的BibTeX内容 -->
+                                      <pre id="text-content">@article{li2023joint,<br>title={Joint Denoising-Demosaicking Network for Long-Wave Infrared Division-of-Focal-Plane Polarization Images With Mixed Noise Level Estimation},<br>author={Li, Ning and Wang, Binglu and Goudail, Fran{\c{c}}ois and Zhao, Yongqiang and Pan, Quan},<br>journal={IEEE Transactions on Image Processing},<br>year={2023},<br>publisher={IEEE}<br>}
+                                      </pre>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
+                                    <img src="img/core.png" />
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
+                                    Core: Cooperative reconstruction for multi-agent perception
+                                </p>
+                                <p class="paper-title">
+                                    <i> IEEE/CVF International Conference on Computer Vision 2023</i>
+                                </p>
+                                <p class="paper-author is-italic">
+                                    <strong>Binglu Wang</strong>, Lei Zhang, Zhaozhong Wang, Yongqiang Zhao, Tianfei Zhou
+                                </p>
+
+                                <p class="paper-info">
+                                    
+                                    <a href="https://ieeexplore.ieee.org/document/10015667" target="_blank">[Paper]</a>
+                                    <a href="https://github.com/CodeMonsterPHD/CORE" target="_blank">[Code]</a>
+                                    <a href="javascript:void(0)" onclick="toggleDropdownc1()" id="toggleLink">[Bibtex]</a>
+                                    <div class="dropdown-contentc1" id="myDropdownc1">
+                                        <!-- 这里是你的BibTeX内容 -->
+                                        <pre id="text-content">@inproceedings{wang2023core,<br>title={Core: Cooperative reconstruction for multi-agent perception},<br>author={Wang, Binglu and Zhang, Lei and Wang, Zhaozhong and Zhao, Yongqiang and Zhou, Tianfei},<br>booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},<br>pages={8710--8720},<br>year={2023}<br>}
+                                          </pre>
+                                    </div>
+
+                                    
+                                </p>
+                            </div>
+                        </div>
+
+                        
+                        <div class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
+                                    <img src="img/kalman.png" />
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
+                                    Multi-level Deep Learning Kalman Filter
+                                </p>
+                                <p class="paper-title">
+                                    <i> IEEE International Conference on Advanced Robotics & Mechatronics 2023</i>
+                                </p>
+                                <p class="paper-author is-italic">
+                                    Shi Yan, Yan Liang, <strong>Binglu Wang*</strong>
+                                </p>
+
+                                <p class="paper-info">
+                                    <a href="https://ieeexplore.ieee.org/document/10015667" target="_blank">[Paper]</a>
+                                    <a href="https://github.com/lartpang/CAVER" target="_blank">[Code]</a>
+                                    <a href="javascript:void(0)" onclick="toggleDropdownc2()" id="toggleLink">[Bibtex]</a>
+                                    <div class="dropdown-contentc2" id="myDropdownc2">
+                                        <!-- 这里是你的BibTeX内容 -->
+                                        <pre id="text-content">@inproceedings{yan2023multi,<br>title={Multi-level Deep Learning Kalman Filter},<br>author={Yan, Shi and Liang, Yan and Wang, Binglu},<br>booktitle={2023 International Conference on Advanced Robotics and Mechatronics (ICARM)},<br>pages={1113--1118},<br>year={2023},<br>organization={IEEE}<br>}
+                                          </pre>
+                                    </div>
+                                    
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
+                                    <img src="img/10.gif" />
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
+                                    Densitytoken: Weakly-Supervised Crowd Counting with Density Classification
+                                </p>
+                                <p class="paper-title">
+                                    <i> IEEE International Conference on Acoustics, Speech, and Signal Processing, 2023</i>
+                                </p>
+                                <p class="paper-author is-italic">
+                                    Zaiyi Hu, <strong>Binglu Wang*</strong>, Xuelong Li
+                                </p>
+
+                                <p class="paper-info">
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/10095402" target="_blank">[Paper]</a>
+                                    <a href="https://github.com/CodeMonsterPHD/DSFormer" target="_blank">[Code]</a>
+                                    <a href="javascript:void(0)" onclick="toggleDropdownc3()" id="toggleLink">[Bibtex]</a>
+                                    <div class="dropdown-contentc3" id="myDropdownc3">
+                                        <!-- 这里是你的BibTeX内容 -->
+                                        <pre id="text-content">@inproceedings{hu2023densitytoken,<br>title={Densitytoken: Weakly-Supervised Crowd Counting with Density Classification},<br>author={Hu, Zaiyi and Wang, Binglu and Li, Xuelong},<br>booktitle={ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},<br>pages={1--5},<br>year={2023},<br>organization={IEEE}<br>}
+                                          </pre>
+                                    </div>
+                                    
                                 </p>
                             </div>
                         </div>
@@ -534,6 +688,67 @@
                         <div class="media">
                             <figure class="media-left">
                                 <p class="image is-64x64">
+                                    <img src="img/8.gif" />
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
+                                    Hybrid Attention-Based U-Shaped Network for Remote Sensing Image Super-Resolution
+                                </p>
+                                <p class="paper-title">
+                                    <i>IEEE Transactions on Geoscience and Remote Sensing, 2023</i>
+                                </p>
+                                <p class="paper-author is-italic">
+                                    Jiarui Wang, <strong>Binglu Wang*</strong>, Xiaoxu Wang, Yongqiang Zhao and Teng Long
+                                </p>
+
+                                <p class="paper-info">
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/10145829" target="_blank">[Paper]</a>
+                                    <a href="https://github.com/CodeMonsterPHD/HAUNet_RSISR" target="_blank">[Code]</a>
+                                    <a href="javascript:void(0)" onclick="toggleDropdown14()" id="toggleLink">[Bibtex]</a>
+                                    <div class="dropdown-content14" id="myDropdown14">
+                                      <!-- 这里是你的BibTeX内容 -->
+                                      <pre id="text-content">@article{wang2023hybrid,<br>title={Hybrid attention based u-shaped network for remote sensing image super-resolution},<br>author={Wang, Jiarui and Wang, Binglu and Wang, Xiaoxu and Zhao, Yongqiang and Long, Teng},<br>journal={IEEE Transactions on Geoscience and Remote Sensing},<br>year={2023},<br>publisher={IEEE}<br>}
+                                        </pre>
+                                    </div>
+                                    
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
+                                    <img src="img/Cross-Spatial.PNG" />
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
+                                    Cross-Spatial Pixel Integration and Cross-Stage Feature Fusion Based Transformer Network for Remote <br> Sensing Image Super-Resolution
+                                </p>
+                                <p class="paper-title">
+                                    <i>IEEE Transactions on Geoscience and Remote Sensing, 2023</i>
+                                </p>
+                                <p class="paper-author is-italic">
+                                    Yuting Lu, Lingtong Min, <strong>Binglu Wang*</strong>, Le Zheng, Xiaoxu Wang, Yongqiang Zhao, Teng Long
+                                </p>
+
+                                <p class="paper-info">
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/10323091/" target="_blank">[Paper]</a>
+                                    <a href="javascript:void(0)" onclick="toggleDropdown7()" id="toggleLink">[Bibtex]</a>
+                                    <div class="dropdown-content7" id="myDropdown7">
+                                      <!-- 这里是你的BibTeX内容 -->
+                                      <pre id="text-content">@article{lu2023cross,<br>title={Cross-Spatial Pixel Integration and Cross-Stage Feature Fusion-Based Transformer Network for Remote Sensing Image Super-Resolution},<br>author={Lu, Yuting and Min, Lingtong and Wang, Binglu and Zheng, Le and Wang, Xiaoxu and Zhao, Yongqiang and Yang, Le and Long, Teng},<br>journal={IEEE Transactions on Geoscience and Remote Sensing},<br>volume={61},<br>pages={1--16},<br>year={2023},<br>publisher={IEEE}<br>}
+                                        </pre>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
                                     <img src="img/3.PNG" />
                                 </p>
                             </figure>
@@ -562,7 +777,66 @@
                             </div>
                         </div>
 
+                        <div class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
+                                    <img src="img/8.PNG" />
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
+                                    LCH: fast RGB-D salient object detection on CPU via lightweight convolutional network with hybrid <br> knowledge distillation
+                                </p>
+                                <p class="paper-title">
+                                    <i>Visual Computer, 2023</i>
+                                </p>
+                                <p class="paper-author is-italic">
+                                    <strong>Binglu Wang</strong> , Fan Zhang, Yongqiang Zhao
+                                </p>
 
+                                <p class="paper-info">
+                                    <a href="https://link.springer.com/article/10.1007/s00371-023-02898-8" target="_blank">[Paper]</a>
+                                    <a href="javascript:void(0)" onclick="toggleDropdown15()" id="toggleLink">[Bibtex]</a>
+                                    <div class="dropdown-content15" id="myDropdown15">
+                                      <!-- 这里是你的BibTeX内容 -->
+                                      <pre id="text-content">@article{wang2023lch, <br>title={LCH: fast RGB-D salient object detection on CPU via lightweight convolutional network with hybrid knowledge distillation},<br>author={Wang, Binglu and Zhang, Fan and Zhao, Yongqiang},<br>journal={The Visual Computer},<br>pages={1--18},<br>year={2023},<br>publisher={Springer}<br>}
+                                        </pre>
+                                    </div>
+                                    <!-- <a href="https://github.com/lartpang/CAVER" target="_blank">[Code]</a> -->
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
+                                    <img src="img/9.PNG" />
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
+                                    GaTector: A Unified Framework for Gaze Object Prediction
+                                </p>
+                                <p class="paper-title">
+                                    <i> IEEE Conference on Computer Vision and Pattern Recognition, 2022</i>
+                                </p>
+                                <p class="paper-author is-italic">
+                                    <strong>Binglu Wang*</strong>, Tao Hu, Baoshan Li, Xiaojuan Chen, Zhijie Zhang
+                                </p>
+
+                                <p class="paper-info">
+                                    <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Wang_GaTector_A_Unified_Framework_for_Gaze_Object_Prediction_CVPR_2022_paper.html" target="_blank">[Paper]</a>
+                                    <a href="https://github.com/CodeMonsterPHD/GaTector-A-Unified-Framework-for-Gaze-Object-Prediction" target="_blank">[Code]</a>
+                                    <a href="javascript:void(0)" onclick="toggleDropdownc4()" id="toggleLink">[Bibtex]</a>
+                                    <div class="dropdown-contentc4" id="myDropdownc4">
+                                        <!-- 这里是你的BibTeX内容 -->
+                                        <pre id="text-content">@inproceedings{wang2022gatector,<br>title={Gatector: A unified framework for gaze object prediction},<br>author={Wang, Binglu and Hu, Tao and Li, Baoshan and Chen, Xiaojuan and Zhang, Zhijie},<br>booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},<br>pages={19588--19597},<br>year={2022}<br>}
+                                          </pre>
+                                    </div>
+                                    
+                                </p>
+                            </div>
+                        </div>
                         
 
                         <div class="media">
@@ -686,29 +960,30 @@
                             </div>
                         </div>
 
+
                         <div class="media">
                             <figure class="media-left">
                                 <p class="image is-64x64">
-                                    <img src="img/8.PNG" />
+                                    <img src="img/7.jpg" />
                                 </p>
                             </figure>
                             <div class="media-content">
                                 <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
-                                    LCH: fast RGB-D salient object detection on CPU via lightweight convolutional network with hybrid knowledge distillation
+                                    I2net: Mining intra-video and inter-video attention for temporal action localization
                                 </p>
                                 <p class="paper-title">
-                                    <i>Visual Computer, 2023</i>
+                                    <i>Neurocomputing, 2021</i>
                                 </p>
                                 <p class="paper-author is-italic">
-                                    <strong>Binglu Wang</strong> , Fan Zhang, Yongqiang Zhao
+                                    Wei Zhang, <strong>Binglu Wang*</strong> , Songhui Ma, Yani Zhang, Yongqiang Zhao
                                 </p>
 
                                 <p class="paper-info">
-                                    <a href="https://link.springer.com/article/10.1007/s00371-023-02898-8" target="_blank">[Paper]</a>
-                                    <a href="javascript:void(0)" onclick="toggleDropdown15()" id="toggleLink">[Bibtex]</a>
-                                    <div class="dropdown-content15" id="myDropdown15">
+                                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S092523122100343X" target="_blank">[Paper]</a>
+                                    <a href="javascript:void(0)" onclick="toggleDropdown20()" id="toggleLink">[Bibtex]</a>
+                                    <div class="dropdown-content20" id="myDropdown20">
                                       <!-- 这里是你的BibTeX内容 -->
-                                      <pre id="text-content">@article{wang2023lch, <br>title={LCH: fast RGB-D salient object detection on CPU via lightweight convolutional network with hybrid knowledge distillation},<br>author={Wang, Binglu and Zhang, Fan and Zhao, Yongqiang},<br>journal={The Visual Computer},<br>pages={1--18},<br>year={2023},<br>publisher={Springer}<br>}
+                                      <pre id="text-content">@article{zhang2021i2net,<br>title={I2net: Mining intra-video and inter-video attention for temporal action localization},<br>author={Zhang, Wei and Wang, Binglu and Ma, Songhui and Zhang, Yani and Zhao, Yongqiang},<br>journal={Neurocomputing},<br>volume={444},<br>pages={16--29},<br>year={2021},<br>publisher={Elsevier}<br>}
                                         </pre>
                                     </div>
                                     <!-- <a href="https://github.com/lartpang/CAVER" target="_blank">[Code]</a> -->
@@ -716,36 +991,11 @@
                             </div>
                         </div>
 
+                    </div>
 
-                        <div class="media">
-                            <figure class="media-left">
-                                <p class="image is-64x64">
-                                    <img src="img/joint.PNG" />
-                                </p>
-                            </figure>
-                            <div class="media-content">
-                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
-                                    Joint Denoising-Demosaicking Network for Long-Wave Infrared Division-of-Focal-Plane Polarization Images with Mixed Noise Level Estimation
-                                </p>
-                                <p class="paper-title">
-                                    <i>IEEE Transactions on Image Processing, 2023</i>
-                                </p>
-                                <p class="paper-author is-italic">
-                                    Ning Li, <strong>Binglu Wang*</strong>, François Goudail, Yongqiang Zhao, Quan Pan
-                                </p>
 
-                                <p class="paper-info">
-                                    <a href="https://ieeexplore.ieee.org/abstract/document/10304085/" target="_blank">[Paper]</a>
-                                    <a href="javascript:void(0)" onclick="toggleDropdown3()" id="toggleLink">[Bibtex]</a>
-                                    <div class="dropdown-content3" id="myDropdown3">
-                                      <!-- 这里是你的BibTeX内容 -->
-                                      <pre id="text-content">@article{li2023joint,<br>title={Joint Denoising-Demosaicking Network for Long-Wave Infrared Division-of-Focal-Plane Polarization Images With Mixed Noise Level Estimation},<br>author={Li, Ning and Wang, Binglu and Goudail, Fran{\c{c}}ois and Zhao, Yongqiang and Pan, Quan},<br>journal={IEEE Transactions on Image Processing},<br>year={2023},<br>publisher={IEEE}<br>}
-                                      </pre>
-                                    </div>
-                                </p>
-                            </div>
-                        </div>
-
+                    <div class="box" id="Publication">
+                        <p class="title is-3">Other Publication</p>
 
                         <div class="media">
                             <figure class="media-left">
@@ -837,34 +1087,7 @@
                         </div>
 
 
-                        <div class="media">
-                            <figure class="media-left">
-                                <p class="image is-64x64">
-                                    <img src="img/Cross-Spatial.PNG" />
-                                </p>
-                            </figure>
-                            <div class="media-content">
-                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
-                                    Cross-Spatial Pixel Integration and Cross-Stage Feature Fusion Based Transformer Network for Remote Sensing Image Super-Resolution
-                                </p>
-                                <p class="paper-title">
-                                    <i>IEEE Transactions on Geoscience and Remote Sensing, 2023</i>
-                                </p>
-                                <p class="paper-author is-italic">
-                                    Yuting Lu, Lingtong Min, <strong>Binglu Wang*</strong>, Le Zheng, Xiaoxu Wang, Yongqiang Zhao, Teng Long
-                                </p>
-
-                                <p class="paper-info">
-                                    <a href="https://ieeexplore.ieee.org/abstract/document/10323091/" target="_blank">[Paper]</a>
-                                    <a href="javascript:void(0)" onclick="toggleDropdown7()" id="toggleLink">[Bibtex]</a>
-                                    <div class="dropdown-content7" id="myDropdown7">
-                                      <!-- 这里是你的BibTeX内容 -->
-                                      <pre id="text-content">@article{lu2023cross,<br>title={Cross-Spatial Pixel Integration and Cross-Stage Feature Fusion-Based Transformer Network for Remote Sensing Image Super-Resolution},<br>author={Lu, Yuting and Min, Lingtong and Wang, Binglu and Zheng, Le and Wang, Xiaoxu and Zhao, Yongqiang and Yang, Le and Long, Teng},<br>journal={IEEE Transactions on Geoscience and Remote Sensing},<br>volume={61},<br>pages={1--16},<br>year={2023},<br>publisher={IEEE}<br>}
-                                        </pre>
-                                    </div>
-                                </p>
-                            </div>
-                        </div>
+                       
 
 
                         <div class="media">
@@ -878,7 +1101,7 @@
                                     A Dual-Attention Deep Discriminative Domain Generalization Model for Hyperspectral Image Classification
                                 </p>
                                 <p class="paper-title">
-                                    <i>Information Sciences, 2023</i>
+                                    <i>Remote Sensing, 2023</i>
                                 </p>
                                 <p class="paper-author is-italic">
                                     Qingjie Zhao, Xin Wang, <strong>Binglu Wang</strong>, Lei Wang, Wangwang Liu, Shanshan Li
@@ -945,7 +1168,7 @@
                                     <i>arXiv preprint arXiv:2312.03490</i>
                                 </p>
                                 <p class="paper-author is-italic">
-                                    Meiyue Song, Zhihua Yu, Jiaxin Wang, Jiarui Wang, Yuting Lu, Baicun Li, Xiaoxu Wang, Qinghua Huang, Zhijun Li, Nikolaos I Kanellakis, Jiangfeng Liu, Jing Wang, <strong>Binglu Wang</strong>, Juntao Yang
+                                    Meiyue Song, Zhihua Yu, Jiaxin Wang, Jiarui Wang, Yuting Lu, Baicun Li, Xiaoxu Wang, Qinghua Huang, Zhijun Li,<br> Nikolaos I Kanellakis, Jiangfeng Liu, Jing Wang, <strong>Binglu Wang</strong>, Juntao Yang
                                 </p>
 
                                 <p class="paper-info">
@@ -953,7 +1176,7 @@
                                     <a href="javascript:void(0)" onclick="toggleDropdown10()" id="toggleLink">[Bibtex]</a>
                                     <div class="dropdown-content10" id="myDropdown10">
                                       <!-- 这里是你的BibTeX内容 -->
-                                      <pre id="text-content">@article{song2023pneumollm,<br>title={PneumoLLM: Harnessing the Power of Large Language Model for Pneumoconiosis Diagnosis},<br>author={Song, Meiyue and Yu, Zhihua and Wang, Jiaxin and Wang, Jiarui and Lu, Yuting and Li, Baicun and Wang, Xiaoxu and Huang, Qinghua and Li, Zhijun and Kanellakis, Nikolaos I and others},<br>journal={arXiv preprint arXiv:2312.03490},<br>year={2023}<br>}
+                                      <pre id="text-content">@article{song2023pneumollm,<br>title={PneumoLLM: Harnessing the Power of Large Language Model for Pneumoconiosis Diagnosis},<br>author={Song, Meiyue and Yu, Zhihua and Wang, Jiaxin and Wang, Jiarui and Lu, Yuting and Li,<br> Baicun and Wang, Xiaoxu and Huang, Qinghua and Li, Zhijun and Kanellakis, Nikolaos I and others},<br>journal={arXiv preprint arXiv:2312.03490},<br>year={2023}<br>}
                                         </pre>
                                     </div>
                                 </p>
@@ -985,236 +1208,6 @@
                                       <pre id="text-content">@article{min2023yolo,<br>title={YOLO-DCTI: small object detection in remote sensing base on contextual transformer enhancement},<br>author={Min, Lingtong and Fan, Ziman and Lv, Qinyi and Reda, Mohamed and Shen, Linghao and Wang, Binglu},<br>journal={Remote Sensing},<br>volume={15},<br>number={16},<br>pages={3970},<br>year={2023},<br>publisher={MDPI}<br>}
                                         </pre>
                                     </div>
-                                </p>
-                            </div>
-                        </div>
-
-                        
-
-                        
-
-                        <div class="media">
-                            <figure class="media-left">
-                                <p class="image is-64x64">
-                                    <img src="img/8.gif" />
-                                </p>
-                            </figure>
-                            <div class="media-content">
-                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
-                                    Hybrid Attention-Based U-Shaped Network for Remote Sensing Image Super-Resolution
-                                </p>
-                                <p class="paper-title">
-                                    <i>IEEE Transactions on Geoscience and Remote Sensing, 2023</i>
-                                </p>
-                                <p class="paper-author is-italic">
-                                    Jiarui Wang, <strong>Binglu Wang*</strong>, Xiaoxu Wang, Yongqiang Zhao and Teng Long
-                                </p>
-
-                                <p class="paper-info">
-                                    <a href="https://ieeexplore.ieee.org/abstract/document/10145829" target="_blank">[Paper]</a>
-                                    <a href="https://github.com/CodeMonsterPHD/HAUNet_RSISR" target="_blank">[Code]</a>
-                                    <a href="javascript:void(0)" onclick="toggleDropdown14()" id="toggleLink">[Bibtex]</a>
-                                    <div class="dropdown-content14" id="myDropdown14">
-                                      <!-- 这里是你的BibTeX内容 -->
-                                      <pre id="text-content">@article{wang2023hybrid,<br>title={Hybrid attention based u-shaped network for remote sensing image super-resolution},<br>author={Wang, Jiarui and Wang, Binglu and Wang, Xiaoxu and Zhao, Yongqiang and Long, Teng},<br>journal={IEEE Transactions on Geoscience and Remote Sensing},<br>year={2023},<br>publisher={IEEE}<br>}
-                                        </pre>
-                                    </div>
-                                    
-                                </p>
-                            </div>
-                        </div>
-
-
-                        <div class="media">
-                            <figure class="media-left">
-                                <p class="image is-64x64">
-                                    <img src="img/7.jpg" />
-                                </p>
-                            </figure>
-                            <div class="media-content">
-                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
-                                    I2net: Mining intra-video and inter-video attention for temporal action localization
-                                </p>
-                                <p class="paper-title">
-                                    <i>Neurocomputing, 2021</i>
-                                </p>
-                                <p class="paper-author is-italic">
-                                    Wei Zhang, <strong>Binglu Wang*</strong> , Songhui Ma, Yani Zhang, Yongqiang Zhao
-                                </p>
-
-                                <p class="paper-info">
-                                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S092523122100343X" target="_blank">[Paper]</a>
-                                    <a href="javascript:void(0)" onclick="toggleDropdown20()" id="toggleLink">[Bibtex]</a>
-                                    <div class="dropdown-content20" id="myDropdown20">
-                                      <!-- 这里是你的BibTeX内容 -->
-                                      <pre id="text-content">@article{zhang2021i2net,<br>title={I2net: Mining intra-video and inter-video attention for temporal action localization},<br>author={Zhang, Wei and Wang, Binglu and Ma, Songhui and Zhang, Yani and Zhao, Yongqiang},<br>journal={Neurocomputing},<br>volume={444},<br>pages={16--29},<br>year={2021},<br>publisher={Elsevier}<br>}
-                                        </pre>
-                                    </div>
-                                    <!-- <a href="https://github.com/lartpang/CAVER" target="_blank">[Code]</a> -->
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                        <div class="box" id="Publication">
-                        <p class="title is-3">Conference Paper</p>
-
-                        <div class="media">
-                            <figure class="media-left">
-                                <p class="image is-64x64">
-                                    <img src="img/core.png" />
-                                </p>
-                            </figure>
-                            <div class="media-content">
-                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
-                                    Core: Cooperative reconstruction for multi-agent perception
-                                </p>
-                                <p class="paper-title">
-                                    <i> IEEE/CVF International Conference on Computer Vision 2023</i>
-                                </p>
-                                <p class="paper-author is-italic">
-                                    <strong>Binglu Wang</strong>, Lei Zhang, Zhaozhong Wang, Yongqiang Zhao, Tianfei Zhou
-                                </p>
-
-                                <p class="paper-info">
-                                    
-                                    <a href="https://ieeexplore.ieee.org/document/10015667" target="_blank">[Paper]</a>
-                                    <a href="https://github.com/CodeMonsterPHD/CORE" target="_blank">[Code]</a>
-                                    <a href="javascript:void(0)" onclick="toggleDropdownc1()" id="toggleLink">[Bibtex]</a>
-                                    <div class="dropdown-contentc1" id="myDropdownc1">
-                                        <!-- 这里是你的BibTeX内容 -->
-                                        <pre id="text-content">@inproceedings{wang2023core,<br>title={Core: Cooperative reconstruction for multi-agent perception},<br>author={Wang, Binglu and Zhang, Lei and Wang, Zhaozhong and Zhao, Yongqiang and Zhou, Tianfei},<br>booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},<br>pages={8710--8720},<br>year={2023}<br>}
-                                          </pre>
-                                    </div>
-
-                                    
-                                </p>
-                            </div>
-                        </div>
-
-                        
-                        <div class="media">
-                            <figure class="media-left">
-                                <p class="image is-64x64">
-                                    <img src="img/kalman.png" />
-                                </p>
-                            </figure>
-                            <div class="media-content">
-                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
-                                    Multi-level Deep Learning Kalman Filter
-                                </p>
-                                <p class="paper-title">
-                                    <i> IEEE International Conference on Advanced Robotics & Mechatronics 2023</i>
-                                </p>
-                                <p class="paper-author is-italic">
-                                    Shi Yan, Yan Liang, <strong>Binglu Wang*</strong>
-                                </p>
-
-                                <p class="paper-info">
-                                    <a href="https://ieeexplore.ieee.org/document/10015667" target="_blank">[Paper]</a>
-                                    <a href="https://github.com/lartpang/CAVER" target="_blank">[Code]</a>
-                                    <a href="javascript:void(0)" onclick="toggleDropdownc2()" id="toggleLink">[Bibtex]</a>
-                                    <div class="dropdown-contentc2" id="myDropdownc2">
-                                        <!-- 这里是你的BibTeX内容 -->
-                                        <pre id="text-content">@inproceedings{yan2023multi,<br>title={Multi-level Deep Learning Kalman Filter},<br>author={Yan, Shi and Liang, Yan and Wang, Binglu},<br>booktitle={2023 International Conference on Advanced Robotics and Mechatronics (ICARM)},<br>pages={1113--1118},<br>year={2023},<br>organization={IEEE}<br>}
-                                          </pre>
-                                    </div>
-                                    
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="media">
-                            <figure class="media-left">
-                                <p class="image is-64x64">
-                                    <img src="img/10.gif" />
-                                </p>
-                            </figure>
-                            <div class="media-content">
-                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
-                                    Densitytoken: Weakly-Supervised Crowd Counting with Density Classification
-                                </p>
-                                <p class="paper-title">
-                                    <i> IEEE International Conference on Acoustics, Speech, and Signal Processing, 2023</i>
-                                </p>
-                                <p class="paper-author is-italic">
-                                    Zaiyi Hu, <strong>Binglu Wang*</strong>, Xuelong Li
-                                </p>
-
-                                <p class="paper-info">
-                                    <a href="https://ieeexplore.ieee.org/abstract/document/10095402" target="_blank">[Paper]</a>
-                                    <a href="https://github.com/CodeMonsterPHD/DSFormer" target="_blank">[Code]</a>
-                                    <a href="javascript:void(0)" onclick="toggleDropdownc3()" id="toggleLink">[Bibtex]</a>
-                                    <div class="dropdown-contentc3" id="myDropdownc3">
-                                        <!-- 这里是你的BibTeX内容 -->
-                                        <pre id="text-content">@inproceedings{hu2023densitytoken,<br>title={Densitytoken: Weakly-Supervised Crowd Counting with Density Classification},<br>author={Hu, Zaiyi and Wang, Binglu and Li, Xuelong},<br>booktitle={ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},<br>pages={1--5},<br>year={2023},<br>organization={IEEE}<br>}
-                                          </pre>
-                                    </div>
-                                    
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="media">
-                            <figure class="media-left">
-                                <p class="image is-64x64">
-                                    <img src="img/9.PNG" />
-                                </p>
-                            </figure>
-                            <div class="media-content">
-                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
-                                    GaTector: A Unified Framework for Gaze Object Prediction
-                                </p>
-                                <p class="paper-title">
-                                    <i> IEEE Conference on Computer Vision and Pattern Recognition, 2022</i>
-                                </p>
-                                <p class="paper-author is-italic">
-                                    <strong>Binglu Wang*</strong>, Tao Hu, Baoshan Li, Xiaojuan Chen, Zhijie Zhang
-                                </p>
-
-                                <p class="paper-info">
-                                    <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Wang_GaTector_A_Unified_Framework_for_Gaze_Object_Prediction_CVPR_2022_paper.html" target="_blank">[Paper]</a>
-                                    <a href="https://github.com/CodeMonsterPHD/GaTector-A-Unified-Framework-for-Gaze-Object-Prediction" target="_blank">[Code]</a>
-                                    <a href="javascript:void(0)" onclick="toggleDropdownc4()" id="toggleLink">[Bibtex]</a>
-                                    <div class="dropdown-contentc4" id="myDropdownc4">
-                                        <!-- 这里是你的BibTeX内容 -->
-                                        <pre id="text-content">@inproceedings{wang2022gatector,<br>title={Gatector: A unified framework for gaze object prediction},<br>author={Wang, Binglu and Hu, Tao and Li, Baoshan and Chen, Xiaojuan and Zhang, Zhijie},<br>booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},<br>pages={19588--19597},<br>year={2022}<br>}
-                                          </pre>
-                                    </div>
-                                    
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="media">
-                            <figure class="media-left">
-                                <p class="image is-64x64">
-                                    <img src="img/transgop.png" />
-                                </p>
-                            </figure>
-                            <div class="media-content">
-                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
-                                    TransGOP: Transformer-Based Gaze Object Prediction
-                                </p>
-                                <p class="paper-title">
-                                    <i> Proceedings of the AAAI Conference on Artificial Intelligence, 2024</i>
-                                </p>
-                                <p class="paper-author is-italic">
-                                    <strong>Binglu Wang*</strong>, Chenxi Guo, Yang Jin, Haisheng Xia, Nian Liu
-                                </p>
-
-                                <p class="paper-info">
-                                    <a href="https://arxiv.org/abs/2402.13578" target="_blank">[Paper]</a>
-                                    <!-- <a href="https://github.com/CodeMonsterPHD/GaTector-A-Unified-Framework-for-Gaze-Object-Prediction" target="_blank">[Code]</a> -->
-                                    <a href="javascript:void(0)" onclick="toggleDropdownc5()" id="toggleLink">[Bibtex]</a>
-                                    <div class="dropdown-contentc5" id="myDropdownc5">
-                                        <!-- 这里是你的BibTeX内容 -->
-                                        <pre id="text-content">@article{wang2024transgop,<br>title={TransGOP: Transformer-Based Gaze Object Prediction},<br>author={Wang, Binglu and Guo, Chenxi and Jin, Yang and Xia, Haisheng and Liu, Nian},<br>journal={arXiv preprint arXiv:2402.13578},<br>year={2024}<br>}
-                                          </pre>
-                                    </div>
-                                    
                                 </p>
                             </div>
                         </div>
