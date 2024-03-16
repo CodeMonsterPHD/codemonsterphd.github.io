@@ -9,7 +9,11 @@
     <meta name="keywords" content="Homepage" />
     <meta name="author" content="Lart Pang" />
     <title>Binglu Wang</title>
-    
+    <style>
+    .dropdown-content {
+    display: none;
+    }
+    </style>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
@@ -123,8 +127,20 @@
                                 </p>
 
                                 <p class="paper-info">
-                                    <a href="https://ieeexplore.ieee.org/abstract/document/10310147" target="_blank">[Paper]</a>
-                                    <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:kS3B2yUIuQMJ:scholar.google.com/&output=citation&scisdr=ClHXxc_KENPb6igwr68:AFWwaeYAAAAAZYQ2t6-Iay7ZWACUJK7UrXTk5Zo&scisig=AFWwaeYAAAAAZYQ2t9MVQuIWyrFT9f_owYnYV-E&scisf=4&ct=citation&cd=-1&hl=zh-CN" target="_blank">[Bibtex]</a>
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/10310147"  target="_blank">[Paper]</a>
+                                    <a href="#" onclick="toggleDropdown()">[Bibtex]</a>
+                                    <div class="dropdown-content" id="myDropdown">
+                                      <!-- 这里是你的BibTeX内容 -->
+                                      <pre>
+                                        @article{wang2023temporal,
+                                          title={Temporal action localization in the deep learning era: A survey},
+                                          author={Wang, Binglu and Zhao, Yongqiang and Yang, Le and Long, Teng and Li, Xuelong},
+                                          journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+                                          year={2023},
+                                          publisher={IEEE}
+                                        }
+                                      </pre>
+                                    </div>
                                 </p>
                             </div>
                         </div>
