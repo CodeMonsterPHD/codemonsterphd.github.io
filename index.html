@@ -114,6 +114,46 @@
     display: none;
     text-align: left;
     }
+    .dropdown-content_radar {
+    display: none;
+    text-align: left;
+    }
+
+    .dropdown-content_tgrswjr {
+    display: none;
+    text-align: left;
+    }
+
+    .dropdown-content_cyb24 {
+    display: none;
+    text-align: left;
+    }
+
+    .dropdown-content_tase24 {
+    display: none;
+    text-align: left;
+    }
+
+    .dropdown-content_eswa24 {
+    display: none;
+    text-align: left;
+    }
+
+    .dropdown-content_ijcv21 {
+    display: none;
+    text-align: left;
+    }
+
+    .dropdown-content_csvtco {
+    display: none;
+    text-align: left;
+    }
+
+    .dropdown-content_prcv21_ {
+    display: none;
+    text-align: left;
+    }
+    
     #text-content {
     width: 80%;
     text-align: left !important; /* 设置文本左对齐 */
@@ -126,6 +166,42 @@
     </style>
 
     <script>
+        function toggleDropdown_radar() {
+    var dropdown = document.getElementById("myDropdown_radar");
+    if (dropdown.style.display === "none" || dropdown.style.display === "") {
+        dropdown.style.display = "block";
+    } else {
+        dropdown.style.display = "none";
+    }
+    }
+    
+
+    function toggleDropdown_tgrswjr() {
+    var dropdown = document.getElementById("myDropdown_tgrswjr");
+    if (dropdown.style.display === "none" || dropdown.style.display === "") {
+        dropdown.style.display = "block";
+    } else {
+        dropdown.style.display = "none";
+    }
+    }
+
+    function toggleDropdown_cyb24() {
+    var dropdown = document.getElementById("myDropdown_cyb24");
+    if (dropdown.style.display === "none" || dropdown.style.display === "") {
+        dropdown.style.display = "block";
+    } else {
+        dropdown.style.display = "none";
+    }
+    }
+
+    function toggleDropdown_tase24() {
+    var dropdown = document.getElementById("myDropdown_tase24");
+    if (dropdown.style.display === "none" || dropdown.style.display === "") {
+        dropdown.style.display = "block";
+    } else {
+        dropdown.style.display = "none";
+    }
+    }
 
     function toggleDropdownc1() {
     var dropdown = document.getElementById("myDropdownc1");
@@ -341,6 +417,42 @@
     }
     }
 
+    function toggleDropdown_eswa24() {
+    var dropdown = document.getElementById("myDropdown_eswa24");
+    if (dropdown.style.display === "none" || dropdown.style.display === "") {
+        dropdown.style.display = "block";
+    } else {
+        dropdown.style.display = "none";
+    }
+    }
+
+    function toggleDropdown_ijcv21() {
+    var dropdown = document.getElementById("myDropdown_ijcv21");
+    if (dropdown.style.display === "none" || dropdown.style.display === "") {
+        dropdown.style.display = "block";
+    } else {
+        dropdown.style.display = "none";
+    }
+    }
+
+    function toggleDropdown_csvtco() {
+    var dropdown = document.getElementById("myDropdown_csvtco");
+    if (dropdown.style.display === "none" || dropdown.style.display === "") {
+        dropdown.style.display = "block";
+    } else {
+        dropdown.style.display = "none";
+    }
+    }
+
+    function toggleDropdown_prcv21_() {
+    var dropdown = document.getElementById("myDropdown_prcv21_");
+    if (dropdown.style.display === "none" || dropdown.style.display === "") {
+        dropdown.style.display = "block";
+    } else {
+        dropdown.style.display = "none";
+    }
+    }
+
     </script>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
@@ -437,6 +549,64 @@
                         <div class="media">
                             <figure class="media-left">
                                 <p class="image is-64x64">
+                                    <img src="" />
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
+                                    Two-stage Spatial-Frequency Joint Learning for Large-Factor Remote Sensing Image Super-Resolution
+                                </p>
+                                <p class="paper-title">
+                                    <i>IEEE Transactions on Geoscience and Remote Sensing, 2024</i>
+                                </p>
+                                <p class="paper-author is-italic">
+                                    Jiarui Wang, Yuting Lu, , <strong>Binglu Wang*</strong> , Xiaoxv Wang, Teng Long
+                                </p>
+
+                                <p class="paper-info">
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/10411925/" target="_blank">[Paper]</a>
+                                    <a href="javascript:void(0)" onclick="toggleDropdown_tgrswjr()" id="toggleLink">[Bibtex]</a>
+                                    <div class="dropdown-content_tgrswjr" id="myDropdown_tgrswjr">
+                                      <!-- 这里是你的BibTeX内容 -->
+                                      <pre id="text-content">@article{wang2024two,<br>title={Two-stage Spatial-Frequency Joint Learning for Large-Factor Remote Sensing Image Super-Resolution},<br>author={Wang, Jiarui and Lu, Yuting and Wang, Shunzhou and Wang, Binglu and Wang, Xiaoxu and Long, Teng},<br>journal={IEEE Transactions on Geoscience and Remote Sensing},<br>year={2024},<br>publisher={IEEE}<br>}</pre>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
+                                    <img src="img/llm.PNG" />
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
+                                    PneumoLLM: Harnessing the Power of Large Language Model for Pneumoconiosis Diagnosis
+                                </p>
+                                <p class="paper-title">
+                                    <i>arXiv preprint arXiv:2312.03490</i>
+                                </p>
+                                <p class="paper-author is-italic">
+                                    Meiyue Song, Zhihua Yu, Jiaxin Wang, Jiarui Wang, Yuting Lu, Baicun Li, Xiaoxu Wang, Qinghua Huang, Zhijun Li,<br> Nikolaos I Kanellakis, Jiangfeng Liu, Jing Wang, <strong>Binglu Wang*</strong>, Juntao Yang
+                                </p>
+
+                                <p class="paper-info">
+                                    <a href="https://arxiv.org/abs/2312.03490" target="_blank">[Paper]</a>
+                                    <a href="javascript:void(0)" onclick="toggleDropdown10()" id="toggleLink">[Bibtex]</a>
+                                    <div class="dropdown-content10" id="myDropdown10">
+                                      <!-- 这里是你的BibTeX内容 -->
+                                      <pre id="text-content">@article{song2023pneumollm,<br>title={PneumoLLM: Harnessing the Power of Large Language Model for Pneumoconiosis Diagnosis},<br>author={Song, Meiyue and Yu, Zhihua and Wang, Jiaxin and Wang, Jiarui and Lu, Yuting and Li,<br> Baicun and Wang, Xiaoxu and Huang, Qinghua and Li, Zhijun and Kanellakis, Nikolaos I and others},<br>journal={arXiv preprint arXiv:2312.03490},<br>year={2023}<br>}
+                                        </pre>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
                                     <img src="img/transgop.png" />
                                 </p>
                             </figure>
@@ -464,6 +634,37 @@
                                 </p>
                             </div>
                         </div>
+
+
+                        <div class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
+                                    <img src="" />
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
+                                    基于多传感器融合的协同感知方法
+                                </p>
+                                <p class="paper-title">
+                                    <i>雷达学报, 2023</i>
+                                </p>
+                                <p class="paper-author is-italic">
+                                    <strong>王秉路</strong>，靳杨，张磊，郑乐，周天飞 
+                                </p>
+
+                                <p class="paper-info">
+                                    <a href="https://radars.ac.cn/article/doi/10.12000/JR23184"  target="_blank">[Paper]</a>
+                                    <a href="javascript:void(0)" onclick="toggleDropdown_radar()" id="toggleLink">[Bibtex]</a>
+                                    <div class="dropdown-content_radar" id="myDropdown_radar" style="text-align: left;">
+                                      <!-- 这里是你的BibTeX内容 -->
+                                      <pre id="text-content">@article{王秉路2023基于多传感器融合的协同感知方法,<br>title={基于多传感器融合的协同感知方法},<br>author={王秉路 and 靳杨 and 张磊 and 郑乐 and 周天飞},<br>journal={雷达学报},<br>volume={12},<br>pages={1--10},<br>year={2023},<br>publisher={雷达学报}<br>}
+                                      </pre>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+
 
                         <div class="media">
                             <figure class="media-left">
@@ -996,6 +1197,130 @@
                     <div class="box" id="Publication">
                         <p class="title is-3">Other Publication</p>
 
+
+
+
+
+
+                        <div class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
+                                    <img src="" />
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
+                                    DSLSM: Dual-kernel-induced statistic level set model for image segmentation
+                                </p>
+                                <p class="paper-title">
+                                    <i>Expert Systems with Applications, 2024</i>
+                                </p>
+                                <p class="paper-author is-italic">
+                                    Fan Zhang, Huiying Liu, Xiaojun Duan, <strong>Binglu Wang</strong>, Qing Cai, Huafeng Li, Junyu  Dong, David Zhang
+                                </p>
+
+                                <p class="paper-info">
+                                    <a href="https://www.sciencedirect.com/science/article/pii/S0957417423032748" target="_blank">[Paper]</a>
+                                    <a href="javascript:void(0)" onclick="toggleDropdown_eswa24()" id="toggleLink">[Bibtex]</a>
+                                    <div class="dropdown-content_eswa24" id="myDropdown_eswa24">
+                                      <!-- 这里是你的BibTeX内容 -->
+                                      <pre id="text-content">@article{zhang2024dslsm,<br>title={DSLSM: Dual-kernel-induced statistic level set model for image segmentation},<br>author={Zhang, Fan and Liu, Huiying and Duan, Xiaojun and Wang, Binglu and Cai, Qing and Li, Huafeng and Dong, Junyu and Zhang, David},<br>journal={Expert Systems with Applications},<br>volume={242},<br>pages={122772},<br>year={2024},<br>publisher={Elsevier}<br>}</pre>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
+                                    <img src="" />
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
+                                    Multi-Sensory Visual-Auditory Fusion of Wearable Navigation Assistance for People With Impaired Vision
+                                </p>
+                                <p class="paper-title">
+                                    <i>IEEE Transactions on Automation Science and Engineering, 2024</i>
+                                </p>
+                                <p class="paper-author is-italic">
+                                    Yang Song and Zhijun Li and Guoxin Li and Binglu Wang and Min Zhu and Peng Shi
+                                </p>
+
+                                <p class="paper-info">
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/10364714/" target="_blank">[Paper]</a>
+                                    <a href="javascript:void(0)" onclick="toggleDropdown_tase24()" id="toggleLink">[Bibtex]</a>
+                                    <div class="dropdown-content_tase24" id="myDropdown_tase24">
+                                      <!-- 这里是你的BibTeX内容 -->
+                                      <pre id="text-content">@article{song2023multi,<br>title={Multi-Sensory Visual-Auditory Fusion of Wearable Navigation Assistance for People With Impaired Vision},<br>author={Song, Yang and Li, Zhijun and Li, Guoxin and Wang, Binglu and Zhu, Min and Shi, Peng},<br>journal={IEEE Transactions on Automation Science and Engineering},<br>year={2023},<br>publisher={IEEE}<br>}
+                                    </pre>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
+                                    <img src="" />
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
+                                    U<sup>2</sup>PNet: An Unsupervised Underwater Image-Restoration Network Using Polarization
+                                </p>
+                                <p class="paper-title">
+                                    <i>IEEE Transactions on Cybernetics, 2024</i>
+                                </p>
+                                <p class="paper-author is-italic">
+                                    Linhao Shen, Haisheng Xia, Xun Zhang, Yongqiang Zhao, Ning Li, Seong G Kong, <strong>Binglu Wang</strong>, Zhijun Li
+                                </p>
+                                
+                                <p class="paper-info">
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/10454091/" target="_blank">[Paper]</a>
+                                    <!-- <a href="https://github.com/polwork/U-2Pnet" target="_blank">[Code]</a> -->
+                                    <a href="javascript:void(0)" onclick="toggleDropdown_cyb24()" id="toggleLink">[Bibtex]</a>
+                                    <div class="dropdown-content_cyb24" id="myDropdown_cyb24">
+                                      <!-- 这里是你的BibTeX内容 -->
+                                      <pre id="text-content">@article{shen2024u,<br>title={U 2 PNet: An Unsupervised Underwater Image-Restoration Network Using Polarization},<br>author={Shen, Linghao and Xia, Haisheng and Zhang, Xun and Zhao, Yongqiang and Li, Ning and Kong, Seong G and Wang, Binglu and Li, Zhijun},<br>journal={IEEE Transactions on Cybernetics},<br>year={2024},<br>publisher={IEEE}<br>}</pre>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+
+
+
+                        <div class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
+                                    <img src="" />
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
+                                    Enhanced dynamic feature representation learning framework by Fourier transform for domain generalization
+                                </p>
+                                <p class="paper-title">
+                                    <i>IEEE Transactions on Circuits and Systems for Video Technology, 2023</i>
+                                </p>
+                                <p class="paper-author is-italic">
+                                    Ruiheng Zhang, Lu Li, Qi Zhang, Jin Zhang, Lixin Xu, Baomin Zhang, <strong>Binglu Wang</strong>
+                                </p>
+
+                                <p class="paper-info">
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/10163477/" target="_blank">[Paper]</a>
+                                    <a href="javascript:void(0)" onclick="toggleDropdown_csvtco()" id="toggleLink">[Bibtex]</a>
+                                    <div class="dropdown-content_csvtco" id="myDropdown_csvtco">
+                                      <!-- 这里是你的BibTeX内容 -->
+                                      <pre id="text-content">@article{zhang2023differential,<br>title={Differential feature awareness network within antagonistic learning for infrared-visible object detection},<br>author={Zhang, Ruiheng and Li, Lu and Zhang, Qi and Zhang, Jin and Xu, Lixin and Zhang, Baomin and Wang, Binglu},<br>journal={IEEE Transactions on Circuits and Systems for Video Technology},<br>year={2023},<br>publisher={IEEE}<br>}</pre>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+
+                        
+
                         <div class="media">
                             <figure class="media-left">
                                 <p class="image is-64x64">
@@ -1153,34 +1478,7 @@
 
                         
 
-                        <div class="media">
-                            <figure class="media-left">
-                                <p class="image is-64x64">
-                                    <img src="img/llm.PNG" />
-                                </p>
-                            </figure>
-                            <div class="media-content">
-                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
-                                    PneumoLLM: Harnessing the Power of Large Language Model for Pneumoconiosis Diagnosis
-                                </p>
-                                <p class="paper-title">
-                                    <i>arXiv preprint arXiv:2312.03490</i>
-                                </p>
-                                <p class="paper-author is-italic">
-                                    Meiyue Song, Zhihua Yu, Jiaxin Wang, Jiarui Wang, Yuting Lu, Baicun Li, Xiaoxu Wang, Qinghua Huang, Zhijun Li,<br> Nikolaos I Kanellakis, Jiangfeng Liu, Jing Wang, <strong>Binglu Wang</strong>, Juntao Yang
-                                </p>
-
-                                <p class="paper-info">
-                                    <a href="https://arxiv.org/abs/2312.03490" target="_blank">[Paper]</a>
-                                    <a href="javascript:void(0)" onclick="toggleDropdown10()" id="toggleLink">[Bibtex]</a>
-                                    <div class="dropdown-content10" id="myDropdown10">
-                                      <!-- 这里是你的BibTeX内容 -->
-                                      <pre id="text-content">@article{song2023pneumollm,<br>title={PneumoLLM: Harnessing the Power of Large Language Model for Pneumoconiosis Diagnosis},<br>author={Song, Meiyue and Yu, Zhihua and Wang, Jiaxin and Wang, Jiarui and Lu, Yuting and Li,<br> Baicun and Wang, Xiaoxu and Huang, Qinghua and Li, Zhijun and Kanellakis, Nikolaos I and others},<br>journal={arXiv preprint arXiv:2312.03490},<br>year={2023}<br>}
-                                        </pre>
-                                    </div>
-                                </p>
-                            </div>
-                        </div>
+                        
 
                         <div class="media">
                             <figure class="media-left">
@@ -1207,6 +1505,64 @@
                                       <pre id="text-content">@article{min2023yolo,<br>title={YOLO-DCTI: small object detection in remote sensing base on contextual transformer enhancement},<br>author={Min, Lingtong and Fan, Ziman and Lv, Qinyi and Reda, Mohamed and Shen, Linghao and Wang, Binglu},<br>journal={Remote Sensing},<br>volume={15},<br>number={16},<br>pages={3970},<br>year={2023},<br>publisher={MDPI}<br>}
                                         </pre>
                                     </div>
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
+                                    <img src="" />
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
+                                    SODA: Weakly supervised temporal action localization based on astute background response and self-distillation learning
+                                </p>
+                                <p class="paper-title">
+                                    <i>International Journal of Computer Vision, 2021</i>
+                                </p>
+                                <p class="paper-author is-italic">
+                                    Tao Zhao, Junwei Han, Le Yang, <strong>Binglu Wang</strong>, Dingwen Zhang
+                                </p>
+
+                                <p class="paper-info">
+                                    <a href="https://link.springer.com/article/10.1007/s11263-021-01473-9" target="_blank">[Paper]</a>
+                                    <a href="javascript:void(0)" onclick="toggleDropdown_ijcv21()" id="toggleLink">[Bibtex]</a>
+                                    <div class="dropdown-content_ijcv21" id="myDropdown_ijcv21">
+                                      <!-- 这里是你的BibTeX内容 -->
+                                      <pre id="text-content">@article{zhao2021soda,<br>title={SODA: Weakly supervised temporal action localization based on astute background response and self-distillation learning},<br>author={Zhao, Tao and Han, Junwei and Yang, Le and Wang, Binglu and Zhang, Dingwen},<br>journal={International Journal of Computer Vision},<br>volume={129},<br>number={8},<br>pages={2474--2498},<br>year={2021},<br>publisher={Springer}<br>}</pre>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
+                                    <img src="" />
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
+                                    LF-MAGNet: Learning Mutual Attention Guidance of Sub-Aperture Images for Light Field Image Super-Resolution
+                                </p>
+                                <p class="paper-title">
+                                    <i>Chinese Conference on Pattern Recognition and Computer Vision (PRCV), 2021</i>
+                                </p>
+                                <p class="paper-author is-italic">
+                                    Zijian Wang, Yao Lu, Yani Zhang, Haowei Lu, Shunzhou Wang, <strong>Binglu Wang</strong>
+                                </p>
+
+                                <p class="paper-info">
+                                    <a href="https://link.springer.com/chapter/10.1007/978-3-030-88010-1_9" target="_blank">[Paper]</a>
+                                    <a href="javascript:void(0)" onclick="toggleDropdown_prcv21_()" id="toggleLink">[Bibtex]</a>
+                                    <div class="dropdown-content_prcv21_" id="myDropdown_prcv21_">
+                                      <!-- 这里是你的BibTeX内容 -->
+                                      <pre id="text-content">@inproceedings{wang2021lf,<br>title={LF-MAGNet: Learning Mutual Attention Guidance of Sub-Aperture Images for Light Field Image Super-Resolution},<br>author={Wang, Zijian and Lu, Yao and Zhang, Yani and Lu, Haowei and Wang, Shunzhou and Wang, Binglu},<br>pages={105--116},<br>year={2021},<br>organization={Springer}<br>}</pre>
+                                    </div>
+                                    <!-- <a href="https://github.com/lartpang/CAVER" target="_blank">[Code]</a> -->
                                 </p>
                             </div>
                         </div>
