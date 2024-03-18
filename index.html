@@ -163,6 +163,10 @@
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* 添加稍重的阴影 */
     padding: 10px; /* 添加内边距，使文本与边框之间有一定的间距 */
     }
+
+    /* .card-image{
+    justify-content: center;
+    align-items: center; /* 设置容器高度  */
     </style>
 
     <script>
@@ -468,9 +472,9 @@
                     <div class="tile is-child is-vertical">
                         <div class="card">
                             <div class="card-image">
-                                <figure class="image is-1by1" id="avatar">
-                                    <img src="img\wbl.png" alt="avatar" />
-                                </figure>
+                                <!-- <figure class="image is-1by1" id="avatar"> -->
+                                    <img src="img\wbl.png" alt="avatar" style="width: 100%; height: 100%;"/>
+                                <!-- </figure> -->
                             </div>
 
                             <div class="card-content" id="introduction">
@@ -1268,7 +1272,7 @@
                             </figure>
                             <div class="media-content">
                                 <p class="paper-title" style="font-size: large; font-weight: 500; color: black;">
-                                    U<sup>2</sup>PNet: An Unsupervised Underwater Image-Restoration Network Using Polarization
+                                    U2PNet: An Unsupervised Underwater Image-Restoration Network Using Polarization
                                 </p>
                                 <p class="paper-title">
                                     <i>IEEE Transactions on Cybernetics, 2024</i>
